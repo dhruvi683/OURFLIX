@@ -24,10 +24,60 @@
     </script>
   </head>
   <body>
-    <main>
-      <header><h2 class="font-roboto">OurFlix</h2></header>
-      <div id="movies"></div>
-    </main>
+    <header class="bg-cover bg-center"style="background-image: url('./image/bg\ 1.jpg');">
+    <nav class="p-1">
+      <ul class="flex justify-around items-center list-none">
+        <li class="mx-2">
+          <a href="#" class="logo"><img src="./image/3.png" alt="logo" /></a>
+        </li>
+        <li class="mx-2">
+          <a href="./index.html"class="text-white font-roboto text-lg hover:underline cursor-pointer hover:text-secondary">HOME</a>
+        </li>
+        <li class="mx-2">
+          <a href="#"class="text-white font-roboto text-lg hover:underline cursor-pointer hover:text-secondary">MOVIE</a>
+        </li>
+        <li class="mx-2">
+          <a href="./src/journal.html"class="text-white font-roboto text-lg hover:underline cursor-pointer hover:text-secondary">JOURNAL</a>
+        </li>
+        <li class="mx-2">
+          <a href="#"class="text-white font-roboto text-lg hover:underline cursor-pointer hover:text-secondary">BLOG</a>
+        </li>
+        <li class="mx-2">
+          <a href="#"class="text-white font-roboto text-lg hover:underline cursor-pointer hover:text-secondary">TVSHOW</a>
+        </li>
+        <li class="mx-2">
+          <a href="#"class="text-white font-roboto text-lg hover:underline cursor-pointerhover:text-secondary">CONTACT</a>
+        </li>    
+        <li class="mx-2">
+          <div class="flex items-center space-x-2">
+            <div class="relative flex items-center">
+              <img src="./image/—Pngtree—search icon_4490393.png" alt="Logo" class="absolute left-4 w-6 h-6 ">
+          <input type="text" id="searchInput" placeholder="  Search for movies..." class="text-lg font-roboto font-bold text-white border-2 border-secondary py-2 px-8 rounded-2xl bg-black bg-opacity-30 hover:border hover:bg-black hover:text-secondary">
+        </div>
+        </div>
+        </li> 
+        <li class = "mx-2"><button
+          class="text-lg font-roboto font-bold text-white border-2 border-secondary py-2 px-6 rounded-2xl bg-black bg-opacity-30 hover:border hover:bg-black hover:text-secondary hover:underline"> SIGN IN</button>
+        </li>
+      </ul>
+    </nav>
+    <section class="hero text-left text-white p-36">
+      <h4 class="text-2xl mb-6 font-roboto font-bold text-secondary">Ourflix</h4>
+      <h1 class="text-6xl mb-9 font-roboto font-bold ">
+        Unlimited Movie, TVs
+      </h1>
+      <h1 class="text-6xl mb-9 font-roboto font-bold ">
+        Shows, & More.</h1>
+    <div class="flex items-center space-x-4">
+      <button class="flex items-center text-lg font-roboto font-bold text-white border-2 border-secondary py-3 px-10 rounded-2xl bg-black bg-opacity-30 hover:border hover:bg-black hover:text-secondary hover:underline">
+        <img src="./image/media-play-64.png" alt="Logo" class="w-5 h-5 mr-2"> WATCH NOW</button>
+    </div>
+  </section>
+  </header>
+  <section>
+    <header><h2 class="font-roboto">OurFlix</h2></header>
+    <div id="movies"></div>
+  </section>
     <script src="./src/index.js"></script>
   </body>
 </html>
