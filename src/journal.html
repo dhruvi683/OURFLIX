@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>OurFlix</title>
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <script>
       tailwind.config = {
@@ -75,6 +76,17 @@
     </div>
   </section>
   </header>
+
+  <main>
+    <!--  My favorites  -->
+    <div class="bg-black p-12">
+      <h1 class="text-secondary">ONLIN STREAMING</h1>
+      <h1 class="font-roboto text-white text-3xl mb-6">My Favorites</h1>
+      <div
+        id="movies"
+        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4"
+      ></div>
+   </main>
   
     <script src="./journal.js"></script>
   </body>
