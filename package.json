@@ -2,8 +2,9 @@
   "name": "ourflix",
   "source": "index.html",
   "scripts": {
-    "dev": "parcel",
-    "build": "parcel build"
+    "dev": "parcel index.html",
+    "build": "parcel build",
+    "clean": "rm -rf .parcel-cache rm -rf dist"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.19",
