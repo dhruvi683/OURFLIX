@@ -143,7 +143,6 @@ function displayFavorites() {
     console.log("Image URL:", movie.imageUrl);
     console.log("Title:", movie.title);
     console.log("Description:", movie.description);
-    console.log("Timestamp:", new Date(movie.timestamp).toLocaleString());
   });
 }
 
