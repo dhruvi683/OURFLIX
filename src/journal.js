@@ -74,7 +74,7 @@ function displayFavorites() {
       </div>
       <div class="p-5">
         <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">${movie.title}</h5>
-        <textarea class="note-input mb-2 p-2 w-full text-gray-900 dark:text-white dark:bg-gray-700" placeholder="Add your note here...">${movie.note || ""}</textarea>
+        <textarea class="note-input flot-bottom mb-2 p-2 w-full text-gray-900 dark:text-white dark:bg-gray-700" placeholder="Add your note here...">${movie.note || ""}</textarea>
         <button class="save-note text-s font-roboto font-bold text-white border-2 border-secondary py-2 px-6 rounded-2xl bg-secondary hover:border hover:bg-black hover:text-secondary hover:underline" data-id="${movie.id}">Save Note</button>
       </div>
     `;
