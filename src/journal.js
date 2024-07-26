@@ -61,7 +61,7 @@ function displayFavorites() {
 
     movieCard.innerHTML = `
       <div class="relative">
-        <img src="${movie.imagUrl || imageBaseUrl}" alt="${movie.title || "No Title"}" class="rounded-t-lg w-full h-full p-2" />
+        <img src="${movie.imageUrl || imageBaseUrl}" alt="${movie.title || "No Title"}" class="rounded-t-lg w-full h-full p-2" />
         <button class="absolute top-2 right-2 bg-red-500 rounded-full p-2" 
           onclick="toggleHeart(this)"
           data-id="${movie.id}"
