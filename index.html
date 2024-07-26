@@ -28,6 +28,7 @@
     </script>
   </head>
   <body>
+     <!--  Header + Nav-->
     <header class="bg-cover bg-center"style="background-image: url('./image/bg\ 1.jpg');">
     <nav class="p-1">
       <ul class="flex justify-around items-center list-none">
@@ -35,22 +36,22 @@
           <a href="#" class="logo"><img src="./image/3.png" alt="logo" /></a>
         </li>
         <li class="mx-2">
-          <a href="./index.html"class="text-white font-roboto text-lg hover:underline cursor-pointer hover:text-secondary">HOME</a>
+          <a href="./index.html" class="text-white font-roboto text-lg hover:underline cursor-pointer hover:text-secondary">HOME</a>
         </li>
         <li class="mx-2">
-          <a href="#"class="text-white font-roboto text-lg hover:underline cursor-pointer hover:text-secondary">MOVIE</a>
+          <a href="#" class="text-white font-roboto text-lg hover:underline cursor-pointer hover:text-secondary">MOVIE</a>
         </li>
         <li class="mx-2">
-          <a href="./src/journal.html"class="text-white font-roboto text-lg hover:underline cursor-pointer hover:text-secondary">JOURNAL</a>
+          <a href="./src/journal.html" class="text-white font-roboto text-lg hover:underline cursor-pointer hover:text-secondary">JOURNAL</a>
         </li>
         <li class="mx-2">
-          <a href="#"class="text-white font-roboto text-lg hover:underline cursor-pointer hover:text-secondary">BLOG</a>
+          <a href="#" class="text-white font-roboto text-lg hover:underline cursor-pointer hover:text-secondary">BLOG</a>
         </li>
         <li class="mx-2">
-          <a href="#"class="text-white font-roboto text-lg hover:underline cursor-pointer hover:text-secondary">TVSHOW</a>
+          <a href="#" class="text-white font-roboto text-lg hover:underline cursor-pointer hover:text-secondary">TVSHOW</a>
         </li>
         <li class="mx-2">
-          <a href="#"class="text-white font-roboto text-lg hover:underline cursor-pointerhover:text-secondary">CONTACT</a>
+          <a href="#" class="text-white font-roboto text-lg hover:underline cursor-pointerhover:text-secondary">CONTACT</a>
         </li>    
         <li class="mx-2">
           <section class="w-full p-4">
@@ -69,32 +70,29 @@
         </li>
       </ul>
     </nav>
+     <!--  HERO -->
     <section class="hero text-left text-white p-36">
       <h4 class="text-2xl mb-6 font-roboto font-bold text-secondary">Ourflix</h4>
-      <h1 class="text-6xl mb-9 font-roboto font-bold ">
-        Unlimited Movie, TVs
-      </h1>
-      <h1 class="text-6xl mb-9 font-roboto font-bold ">
-        Shows, & More.</h1>
-    <div class="flex items-center space-x-4">
-      <button class="flex items-center text-lg font-roboto font-bold text-white border-2 border-secondary py-3 px-10 rounded-2xl bg-black bg-opacity-30 hover:border hover:bg-black hover:text-secondary hover:underline">
-        <img src="./image/media-play-64.png" alt="Logo" class="w-5 h-5 mr-2"> WATCH NOW</button>
-    </div>
-  </section>
+      <h1 class="text-6xl mb-9 font-roboto font-bold">Unlimited Movie, TVs</h1>
+      <h1 class="text-6xl mb-9 font-roboto font-bold">Shows, & More.</h1>
+      <div class="flex items-center space-x-4">
+        <button class="flex items-center text-lg font-roboto font-bold text-white border-2 border-secondary py-3 px-10 rounded-2xl bg-black bg-opacity-30 hover:border hover:bg-black hover:text-secondary hover:underline">
+          <img src="./image/media-play-64.png" alt="Logo" class="w-5 h-5 mr-2"> WATCH NOW
+        </button>
+      </div>
+    </section>    
   </header>
+   <!--  Popular movies -->
   <main>
-     <!--  Popular movies -->
     <div class="bg-black p-12">
       <h1 class="text-secondary">ONLINE STREAMING</h1>
-
-      
       <h1 class="font-roboto text-white text-3xl mb-6">Popular Movies</h1>
       <div
         id="movies"
-        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4"
-      ></div>
+        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4">
+      </div>
       </main>
-      
+       <!--  Our services -->
       <section class=" section-banner bg-primary p-12 mx-auto">
         <div class="flex flex-row space-x-40 flot-left">
           <div >
@@ -104,11 +102,10 @@
             <h3 class= "font-bold text-secondary font-roboto pb-4">------ OUR SERVICES</h3>
             <h1 class="text-5xl font-bold mb-4 text-white font-roboto">Download Your Shows</h1>
             <h1 class="text-5xl font-bold mb-4 text-white font-roboto"> Watch Offline.</h1>
-            <p class="mb-4 text-white leading-8 mb-9">With our "Download Your Shows: Watch Offline" feature, you can save your favorite TV shows and movies directly to your device for uninterrupted entertainment on the go. 
-              Perfect for travel or areas with limited connectivity, enjoy high-definition content without buffering. Manage storage by selecting your preferred download quality and keep your shows ready
-              to watch anytime, anywhere. Download now and enjoy endless entertainment offline!</p>
-              
-            <div class="flex flex-row mt-12">
+            <p class="mb-4 text-white leading-8 mb-9">
+              With our "Download Your Shows: Watch Offline" feature, you can save your favorite TV shows and movies directly to your device for uninterrupted entertainment on the go. Perfect for travel or areas with limited connectivity, enjoy high-definition content without buffering. Manage storage by selecting your preferred download quality and keep your shows ready to watch anytime, anywhere. Download now and enjoy endless entertainment offline!
+            </p>  
+             <div class="flex flex-row mt-12">
                 <div class="flex flex-col items-center text-center">
                   <div class="mt-2">
                     <img src="./image/4.png" alt="logo">
@@ -129,25 +126,25 @@
           </div>
         </div>
       </section>
+      <!--  Online Streaming -->
       <section class="bg-cover bg-center p-10" style="background-image: url(./image/bg\ 2.jpg);">
-        <div class="">
-            <div class="p-10 w-1/2">
-                <h3 class="text-secondary font-roboto font-bold text-lg font-semibold">---- Online Streaming</h3>
-                <h1 class="text-5xl font-roboto text-gray-800 font-bold mt-4 mb-2">Live Movie & TV Shows For</h1>
-                <h1 class="text-5xl font-roboto text-gray-800 font-bold mb-4"> Friends & Family</h1>
-                <p class="text-tertaiary font-roboto leading-8 mt-4 mb-6">
-                    Experience the joy of watching "Live Movie & TV Shows For Friends & Family" together.
-                    Stream your favorite content in real-time, creating memorable moments with loved ones.
-                    Enjoy a seamless, high-quality viewing experience that's perfect for gatherings, no matter
-                    where everyone is. Share the magic of live entertainment with friends and family today!
-                </p>
-                <div class="mr-3 flex items-center space-x-4">
-                    <button class="flex items-center text-lg font-roboto font-bold text-white bg-secondary py-3 px-8 rounded-2xl hover:border hover:bg-black hover:text-secondary hover:underline">
-                      <img src="./image/media-play-64.png" alt="Logo" class="w-5 h-5 mr-2"> WATCH NOW</button>
-                  </div>
+        <div>
+          <div class="p-10 w-1/2">
+            <h3 class="text-secondary font-roboto font-bold text-lg font-semibold">---- Online Streaming</h3>
+            <h1 class="text-5xl font-roboto text-gray-800 font-bold mt-4 mb-2">Live Movie & TV Shows For</h1>
+            <h1 class="text-5xl font-roboto text-gray-800 font-bold mb-4">Friends & Family</h1>
+            <p class="text-tertiary font-roboto leading-8 mt-4 mb-6">
+              Experience the joy of watching "Live Movie & TV Shows For Friends & Family" together. Stream your favorite content in real-time, creating memorable moments with loved ones. Enjoy a seamless, high-quality viewing experience that's perfect for gatherings, no matter where everyone is. Share the magic of live entertainment with friends and family today!
+            </p>
+            <div class="mr-3 flex items-center space-x-4">
+              <button class="flex items-center text-lg font-roboto font-bold text-white bg-secondary py-3 px-8 rounded-2xl hover:border hover:bg-black hover:text-secondary hover:underline">
+                <img src="./image/media-play-64.png" alt="Logo" class="w-5 h-5 mr-2"> WATCH NOW
+              </button>
             </div>
+          </div>
         </div>
-    </section>
+      </section> 
+      <!--  Footer -->     
     <footer>
       <div class="bg-primary w-full pt-10 pb-7">
           <div class="flex justify-between flex-wrap mx-16">
@@ -160,24 +157,16 @@
                 <a href="./src/journal.html" class="hover:underline font-roboto hover:text-secondary">Journal</a>
               </div>
             </div>
-    
             <div class="flex ">
               <div class="flex flex-row gap-10">
-                <a href="#"
-                  ><img src="./image/Facebook.png" alt="Facebook" class="h-8"
-                /></a>
-                <a href="#"
-                  ><img src="./image/Instagran.png" alt="Instagram" class="h-8"
-                /></a>
-                <a href="#"
-                  ><img src="./image/Pinterest.png" alt="Pinterest" class="h-8"
-                /></a>
+                <a href="#"><img src="./image/Facebook.png" alt="Facebook" class="h-8"/></a>
+                <a href="#"><img src="./image/Instagran.png" alt="Instagram" class="h-8"/></a>
+                <a href="#"><img src="./image/Pinterest.png" alt="Pinterest" class="h-8"/></a>
               </div>
               <div class="flex flex-col gap-5 text-white">
                 <span class="w-60 font-roboto text-right">Feel free to contact us</span>
                 <div class="flex justify-end">
-                  <button
-                    class="text-lg font-roboto font-bold text-white border-2 border-secondary py-2 px-6 rounded-2xl bg-secondary hover:border hover:bg-black hover:text-secondary hover:underline">
+                  <button class="text-lg font-roboto font-bold text-white border-2 border-secondary py-2 px-6 rounded-2xl bg-secondary hover:border hover:bg-black hover:text-secondary hover:underline">
                     Contact Us
                   </button>
                 </div>
@@ -185,8 +174,7 @@
             </div>
           </div>
           <div class="flex justify-center mt-7">
-            <span class="font-roboto text-sm text-white"
-              >Copyright © 2024. All Rights Reserved By ourflix</span>
+            <span class="font-roboto text-sm text-white">Copyright © 2024. All Rights Reserved By ourflix</span>
           </div>
         </div>
       </footer>
