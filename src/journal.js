@@ -7,7 +7,8 @@ const imageBaseUrl = "https://via.placeholder.com/150"; // Example placeholder U
 function toggleHeart(button) {
   const heartIcon = button.querySelector(".heart-icon");
   const movieId = button.dataset.id;
-  
+  const title = button.dataset.title;
+
   let favorites = JSON.parse(localStorage.getItem("favorites")) || [];
   const movieIndex = favorites.findIndex((movie) => movie.id === movieId);
 
@@ -15,7 +16,7 @@ function toggleHeart(button) {
     // Remove movie from favorites
     favorites.splice(movieIndex, 1);
     localStorage.setItem("favorites", JSON.stringify(favorites));
-    alert("Movie removed from favorites");
+    alert(`${title} removed from favorites`);
     heartIcon.classList.add("text-white");
     heartIcon.classList.remove("text-secondary");
   }

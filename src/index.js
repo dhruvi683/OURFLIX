@@ -131,13 +131,13 @@ const toggleHeart = (button) => {
     
     favorites.push({ id: movieId, imageUrl, title, description });
     localStorage.setItem("favorites", JSON.stringify(favorites));
-    alert("Movie added to favorites");
+    alert(`${title} added to favorites`);
     heartIcon.classList.add("text-secondary");
     heartIcon.classList.remove("text-white");
   } else {
     favorites.splice(movieIndex, 1);
     localStorage.setItem("favorites", JSON.stringify(favorites));
-    alert("Movie removed from favorites");
+    alert(`${title} removed from favorites`);
     heartIcon.classList.add("text-white");
     heartIcon.classList.remove("text-secondary");
   }
