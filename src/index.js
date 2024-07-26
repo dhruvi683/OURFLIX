@@ -113,7 +113,7 @@ document.getElementById("searchMovie").addEventListener("click", () => {
 const toggleHeart = (button) => {
   const heartIcon = button.querySelector(".heart-icon");
   const movieId = button.dataset.id;
-  const imageUrl = button.dataset.image;
+  const imageUrl = button.dataset.image; 
   const title = button.dataset.title;
   const description = button.dataset.description;
 
@@ -121,6 +121,14 @@ const toggleHeart = (button) => {
   const movieIndex = favorites.findIndex(movie => movie.id === movieId);
 
   if (movieIndex === -1) {
+    // movie is not in local storage, add it
+    const newMovie = {
+      id: movieId,
+      imageUrl: imageUrl,
+      title: title,
+      description: description,
+    };
+    
     favorites.push({ id: movieId, imageUrl, title, description });
     localStorage.setItem("favorites", JSON.stringify(favorites));
     alert("Movie added to favorites");
